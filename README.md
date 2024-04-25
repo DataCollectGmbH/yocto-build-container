@@ -1,2 +1,2 @@
-# yocto-buil
+# yocto-build
 Docker Container for Yocto Build
