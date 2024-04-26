@@ -27,3 +27,4 @@ RUN useradd -s /bin/bash --create-home devel \
 
 RUN mkdir -p /yocto && chown devel:staff /yocto
 WORKDIR /yocto
+USER devel:staff
