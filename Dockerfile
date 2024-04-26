@@ -24,3 +24,6 @@ RUN useradd -s /bin/bash --create-home devel \
         && addgroup devel staff \
         && addgroup devel sudo \
         && true
+
+RUN mkdir -p /yocto && chown devel:staff /yocto
+WORKDIR /yocto
